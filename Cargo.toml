@@ -1,0 +1,16 @@
+[package]
+name = "rustc-hex-viewer"
+version = "1.0.0"
+authors = ["Badel2 <2badel2@gmail.com>"]
+edition = "2021"
+license = "GPL-3.0"
+description = """
+Use the Rust compiler as a hex viewer
+"""
+repository = "https://github.com/Badel2/rustc-hex-viewer"
+readme = "README.md"
+rust-version = "1.59"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
