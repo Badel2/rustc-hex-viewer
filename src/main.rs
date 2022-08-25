@@ -1,6 +1,5 @@
 #![allow(dead_code)]
 #![allow(non_snake_case)]
-#![no_std]
 const FILE: &[u8] = include_bytes!(env!(
     "FILE",
     "Missing FILE argument.\n\nUsage:\n\n\tFILE=/etc/passwd cargo build\n"
