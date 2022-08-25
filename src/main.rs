@@ -17,3 +17,5 @@ const fn VIEWER() -> ([u8; FILE.len()], [u8; PADDING]) {
 }
 type HEX = ([u8; FILE.len()], [u8; PADDING]);
 const RUSTC: HEX = VIEWER();
+
+fn main() {}

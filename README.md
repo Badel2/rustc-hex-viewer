@@ -10,6 +10,12 @@ cd rustc-hex-viewer
 FILE=/etc/passwd cargo build
 ```
 
+Or, if you like one-liners:
+
+```
+FILE=/etc/passwd cargo install --git https://github.com/Badel2/rustc-hex-viewer
+```
+
 ### Example output:
 
 ```
